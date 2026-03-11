@@ -1,0 +1,10 @@
+// prisma/schema.prisma  ← TL provides scaffold, D1 writes the full schema at 9 AM
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// D1 writes all models here at 9 AM sprint start
